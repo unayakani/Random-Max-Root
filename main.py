@@ -110,7 +110,7 @@ x_vals_max = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 x_vals_root = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 plt.xlim(1, 9)
-plt.ylim(1, 9)
+plt.ylim(1, 1000)
 
 plt.subplot(121).set_title("Max")
 plt.plot(x_vals_max, y_vals_max)
